@@ -4,9 +4,9 @@ Here is the source code for my new portfolio project. It is made with a parallax
 
 ## How to use
 
-First clone the project using one of these methods :
-- `git clone git@github.com:morgan-pernelle/pf-prlx.git`
-- `git clone https://github.com/morgan-pernelle/pf-prlx.git`
+First clone the project using one of these :
+- SSH method `git clone git@github.com:morgan-pernelle/pf-prlx.git`
+- HTTPS method `git clone https://github.com/morgan-pernelle/pf-prlx.git`
 
 Then simply run `npm start` to launch the local server.
 
