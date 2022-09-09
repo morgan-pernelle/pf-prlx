@@ -152,3 +152,97 @@
 .about-me::after {
   content: 'À propos';
 }
+
+.background-image-container {
+  width: 80vw;
+  max-width: 1000px;
+  position: relative;
+  max-height: 500px;
+}
+
+.background-image-container img {
+  object-fit: cover;
+}
+
+.details {
+  position: relative;
+  top: -100px;
+  font-size: clamp(14px, 2vw, 20px);
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+.details h2 {
+  font-family: 'Druk Wide Bold', sans-serif;
+  font-size: clamp(20px, 1.4vw, 28px);
+}
+
+.details .bio {
+  max-width: 600px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.details a {
+  color: white;
+  text-decoration: underline;
+  transition: all .2s ease-in-out;
+}
+
+.details a:hover {
+  color: gray;
+}
+
+.program {
+  margin-top: 20px;
+}
+
+li {
+  margin-left: 22px;
+}
+
+
+/* --------- */
+/* section 4 */
+
+.contact::after {
+  content: 'Contact';
+}
+
+span {
+  font-size: clamp(10px, 2.5vh, 23px);
+}
+
+span > div {
+  margin-top: 20px;
+}
+
+span p {
+  cursor: pointer;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: clamp(10px, 3vh, 38px);
+  margin-left: 22px;
+  transition: all .2s ease-in-out;
+}
+
+span p:hover {
+  color: gray;
+  font-size: clamp(14px, 4vh,42px);
+}
+
+.contact-list-icon {
+  font-size: 22px;
+}
+
+
+/* --------- */
+/* section 4 */
+
+.footer {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: clamp(10px, 3vh, 38px);
+}
+
+.tech {
+  color: gray;
+  font-size: clamp(8px, 2vh, 20px);
+}
