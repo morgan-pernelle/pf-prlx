@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f3b1680.css",
+    "main.js": "/static/js/main.7377a12c.js",
+    "static/media/header-image.jpg": "/static/media/header-image.31b5f2403268924995ba.jpg",
+    "static/media/project-1-spence.png": "/static/media/project-1-spence.1429fc7d9f74d76b51a2.png",
+    "static/media/background-2.jpg": "/static/media/background-2.84fb3287f7dc5c8682aa.jpg",
+    "static/media/project-2-sunnyside-agency.png": "/static/media/project-2-sunnyside-agency.fbd58d9fe180c4a03e0b.png",
+    "static/media/project-3-old-portfolio.png": "/static/media/project-3-old-portfolio.d3a1e45b74cf2b2e29f4.png",
+    "index.html": "/index.html",
+    "main.8f3b1680.css.map": "/static/css/main.8f3b1680.css.map",
+    "main.7377a12c.js.map": "/static/js/main.7377a12c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f3b1680.css",
+    "static/js/main.7377a12c.js"
+  ]
+}

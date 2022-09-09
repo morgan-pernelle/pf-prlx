@@ -18,7 +18,7 @@ import headerImage from '../../img/header-image.jpg';
 import aboutImage from '../../img/background-2.jpg';
 import projectOne from '../../img/project-1-spence.png';
 import projectTwo from '../../img/project-2-sunnyside-agency.png';
-import projectThree from '../../img/project-3-old-portfolio.png';
+import projectThree from '../../img/project-3-portfolio.png';
 import { FiMail, FiGithub } from 'react-icons/fi';
 import { SiTwitter, SiReact } from 'react-icons/si';
 import { TiSocialLinkedin } from 'react-icons/ti';
@@ -39,8 +39,8 @@ const Home = () => {
       imageSrc: projectTwo,
     },
     {
-      name: "Mon portfolio précédent",
-      link: "https://morgan-pernelle.fr/",
+      name: "Mon portfolio",
+      link: "https://github.com/morgan-pernelle/pf-prlx",
       imageSrc: projectThree,
     }
   ];
