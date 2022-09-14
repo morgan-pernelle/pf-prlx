@@ -170,6 +170,7 @@ const Home = () => {
       </ScrollPage>
 
       <ScrollPage page={6}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(-100, 100))}>
           <div style={{
             display: "flex",
             justifyContent: "center",
@@ -193,6 +194,36 @@ const Home = () => {
               </div>
             </Animator>
 
+            {/* github link */}
+            <Animator animation={MoveIn(1500, 0)}>
+              <div 
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                onClick={() => handleContactClick("https://github.com/morgan-pernelle")}
+              >
+                <FiGithub color="white" className="contact-list-icon" />
+                <p>morgan-pernelle</p>
+              </div>
+            </Animator>
+
+            {/* linkedin link */}
+            <Animator animation={MoveIn(-1000, 0)}>
+              <div 
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+                onClick={() => handleContactClick("https://www.linkedin.com/in/morgan-pernelle/")}
+              >
+                <TiSocialLinkedin color="white" className="contact-list-icon" />
+                <p>Morgan Pernelle</p>
+              </div>
+            </Animator>
+
             {/* gmail link */}
             <Animator animation={MoveIn(1000, 0)}>
               <div 
@@ -208,38 +239,9 @@ const Home = () => {
               </div>
             </Animator>
 
-            {/* github link */}
-            <Animator animation={MoveOut(1000, 0)}>
-              <div 
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                onClick={() => handleContactClick("https://github.com/morgan-pernelle")}
-              >
-                <FiGithub color="white" className="contact-list-icon" />
-                <p>morgan-pernelle</p>
-              </div>
-            </Animator>
-
-            {/* linkedin link */}
-            <Animator animation={MoveOut(-1000, 0)}>
-              <div 
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                onClick={() => handleContactClick("https://www.linkedin.com/in/morgan-pernelle/")}
-              >
-                <TiSocialLinkedin color="white" className="contact-list-icon" />
-                <p>Morgan Pernelle</p>
-              </div>
-            </Animator>
-
           </span>
           </div>
+        </Animator>
       </ScrollPage>
 
       {/* section 4 */}

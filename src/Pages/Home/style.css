@@ -1,4 +1,4 @@
-/* --------- */
+/* ------------------------------------------------------------------------ */
 /* section 1 */
 
 .image-container {
@@ -58,7 +58,7 @@
 }
 
 
-/* --------- */
+/* ------------------------------------------------------------------------ */
 /* section 2 */
 
 .section-title {
@@ -146,7 +146,7 @@
 }
 
 
-/* --------- */
+/* ------------------------------------------------------------------------ */
 /* section 3 */
 
 .about-me::after {
@@ -201,7 +201,7 @@ li {
 }
 
 
-/* --------- */
+/* ------------------------------------------------------------------------ */
 /* section 4 */
 
 .contact::after {
@@ -234,7 +234,7 @@ span p:hover {
 }
 
 
-/* --------- */
+/* ------------------------------------------------------------------------ */
 /* section 4 */
 
 .footer {
@@ -245,4 +245,69 @@ span p:hover {
 .tech {
   color: gray;
   font-size: clamp(8px, 2vh, 20px);
+}
+
+/* ------------------------------------------------------------------------ */
+/* Responsive */
+/* Mobile */
+
+@media screen and (max-width: 480px) {
+  .name {
+    position: unset;
+  }
+
+  .position {
+    position: unset;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  .section-title::after {
+    top: -10px;
+    left: -25px;
+  }
+
+  .details {
+    top: 20px;
+  }
+
+  span p {
+    font-size: 18px;
+  }
+
+  .contact-list-icon {
+    font-size: 18px;
+  }
+}
+
+/* Portrait tablet */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
+}
+
+/* Landscape tablet, small desktop */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .name {
+    position: unset;
+  }
+
+  .position {
+    position: unset;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* Extra-large, TV */
+
+@media screen and (min-width: 1201px) {
+  
 }
