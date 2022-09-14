@@ -10,5 +10,6 @@ First clone the project using one of these :
 
 Then simply run `npm start` to launch the local server.
 
+You can also visit my portfolio using [this url](https://morgan-pernelle.fr/).
 
 Coded by [Morgan Pernelle](https://github.com/morgan-pernelle).
