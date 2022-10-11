@@ -6,7 +6,7 @@ import {
   batch,
   Fade,
   FadeIn,
-  Move,
+  // Move,
   MoveIn,
   MoveOut,
   Sticky,
@@ -16,9 +16,12 @@ import {
 import './style.css';
 import headerImage from '../../img/header-image.jpg';
 import aboutImage from '../../img/background-2.jpg';
-import projectOne from '../../img/project-1-spence.png';
-import projectTwo from '../../img/project-2-sunnyside-agency.png';
-import projectThree from '../../img/project-3-portfolio.png';
+import myAnimeTracker from '../../img/my-anime-tracker.png';
+import weatherVue from '../../img/weather-vue.png';
+import calculator from '../../img/calculator-react.png';
+import todoList from '../../img/todo-list.png';
+import olumni from '../../img/olumni.png';
+import portfolio from '../../img/project-3-portfolio.png';
 import { FiMail, FiGithub } from 'react-icons/fi';
 import { SiTwitter, SiReact } from 'react-icons/si';
 import { TiSocialLinkedin } from 'react-icons/ti';
@@ -29,19 +32,34 @@ const Home = () => {
 
   const work = [
     {
-      name: "Spence",
-      link: "https://github.com/morgan-pernelle/spence",
-      imageSrc: projectOne,
+      name: "Anime Tracker",
+      link: "https://github.com/morgan-pernelle/anime-tracker",
+      imageSrc: myAnimeTracker,
     },
     {
-      name: "Sunnyside Agency (mobile)",
-      link: "https://github.com/morgan-pernelle/sunnyside-agency",
-      imageSrc: projectTwo,
+      name: "Weather App",
+      link: "https://github.com/morgan-pernelle/weather-vue",
+      imageSrc: weatherVue,
+    },
+    {
+      name: "Calculator",
+      link: "https://github.com/morgan-pernelle/calculator",
+      imageSrc: calculator,
+    },
+    {
+      name: "Todo List",
+      link: "https://github.com/morgan-pernelle/todo-list",
+      imageSrc: todoList,
+    },
+    {
+      name: "O'lumni",
+      link: "https://github.com/morgan-pernelle/projet-olumni",
+      imageSrc: olumni,
     },
     {
       name: "Mon portfolio",
       link: "https://github.com/morgan-pernelle/pf-prlx",
-      imageSrc: projectThree,
+      imageSrc: portfolio,
     }
   ];
 
